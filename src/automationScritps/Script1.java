@@ -72,6 +72,8 @@ public class Script1 {
 			Assert.assertTrue(isWidgetDisplay, "Widget is not displayed...." + widgetHeader);
 		}
 
+		driver.quit();
+		System.out.println("STEP : Browser closed");
 	}
 
 }

@@ -66,6 +66,8 @@ public class Script3 {
 		Assert.assertTrue(amount > 0);
 		System.out.println("STEP : CTC is non-zero");
 
+		driver.quit();
+		System.out.println("STEP : Browser closed");
 	}
 
 }

@@ -83,6 +83,9 @@ public class Script2 {
 
 		Assert.assertTrue(empCount > 0);
 		System.out.println("STEP : Verified Employee count are non-zero");
+		
+		driver.quit();
+		System.out.println("STEP : Browser closed");
 
 	}
 
